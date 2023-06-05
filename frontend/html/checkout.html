@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/c8503353a1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Damion&family=Poppins&display=swap" rel="stylesheet">
+  </head>
+  <body>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <div id="logo">
+                <a href="../index.html">
+                    <div class="logo">
+                        <h1>Megamart</h1>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="div3">
+                <input id="search" type="search" placeholder="Search for Products"/>
+                <button class="searchbtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <ul id="ul_tag">
+                <li><a href="./admin.html"><i id="itag" class="fa-solid fa-user"></i>Admin login</a></li>
+                <li><a href="./login.html" id="login_name"><i id="itag" class="fa-solid fa-user"></i>Login</a></li>
+                <li onclick="logout()"><a href="#"><i class="fa-solid fa-right-from-bracket"></i>Logout</a></li>
+                <li><a href="./cart.html"><i id="itag" class="fa-solid fa-cart-shopping"></i>Cart</a></li>
+                <li id="cart_c">(0)</li>
+            </ul>
+        </nav>
+    
+    <div id="bottom_nav">
+        <p><a href="./products.html">Home Decor</a></p>
+        <p><a href="./products.html ">Tole Bags</a></p>
+        <p><a href="./products.html">Kitchen Ware</a></p>
+        <p><a href="./products.html">Ceramic Mugs</a></p>
+    </div>
+
+    
+    <div id="review">
+
+        <div id="adress">
+            <p>CHECKOUT</p>
+            <p>Customer Details</p>
+            <br>
+            <div class="first">
+                <input type="text" placeholder="*First Name" required>
+                <input type="text" placeholder="*Last Name" required>
+            </div>
+            <div class="second">
+                <input type="text" placeholder="*Street Address" required>
+                <input type="text" placeholder="Apt, Suite, floor">
+            </div>
+            <div class="third">
+                <input id="zip" type="text" placeholder="*Zip Code" required>
+                <input type="text" placeholder="*City" required>
+                <input type="text" placeholder="STATE" required>
+                <input type="text" placeholder="COUNTRY" required>
+            </div>
+            <div class="four">
+                <input type="text" placeholder="*ENTER MOBILE" required>
+            </div>   
+        </div>
+
+        <div id="order_details">
+            <p class="order_d_1">Order Details</p>
+            <div class="order_products_div">
+                <!-- <div class="order_products">
+                    <img src="https://cdn.plotch.io/image/upload/w_118,h_118/C/V/PLOY7FmaJL1668189623_b9e1357684a9591fd93467ed9887d760765cfe6be7140a48f38580253cc98d04.jpeg" />
+                    <div>
+                        <p class="order_products_name">Cotton Washbasin Napkin|Hand Towel for Kitchen and Bathroom</p>
+                        <p class="order_products_name1">Estimated delivery time 24 Jan 2023</p>
+                    </div>
+                </div> -->
+            </div>
+
+            <div class="price_div">
+                <p>Price</p>
+                <p class="total">0</p>
+            </div>
+
+            <div class="shipping_div">
+                <p >Discount</p>
+                <p class="discountt">0</p>
+            </div>
+
+            <div class="total_div">
+                <p>Total Payment</p>
+                <p class="Total">0</p>
+            </div>
+            
+            <div id="payment_div">
+                <a href="./payment.html"><button id="payment">Continue With Payment</button></a>
+                
+            </div>
+
+        </div>
+
+    </div>
+    
+
+    <div id="footer">
+        <div class="footer_1">
+            <h1>About Us</h1>
+            <p>India's most convenient online grocery channel Buyerapp Fresh and Smart makes your grocery shopping even simpler. No more hassles of sweating it out in crowded markets, grocery shops & supermarkets - now shop from the comfort of your home; office, or on the move. We offer you the convenience of shopping for everything that you need for your home - be it fresh fruits & vegetables, rice, dals, oil, packaged food, dairy item, frozen, pet food, household cleaning items & personal care products from a single virtual store.</p>
+            <h1>PAYMENT OPTIONS</h1>
+            <div id="footer_card">
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-paypal"></i>
+                <i class="fa-brands fa-cc-amazon-pay"></i>
+                <i class="fa-brands fa-cc-amex"></i>
+            </div>
+        </div>
+        <div class="footer_2">
+            <div>
+
+                <h1>OUR COMPANY</h1>
+                <p>About Us</p>
+                <p>Contact Us</p>
+                <p>Review</p>
+
+                <h1>TOP CATEGORIES</h1>
+                <P>Glocery</P>
+                <p>Home Decor</p>
+
+            </div>
+            <div>
+                <h1 class="footer_poly">POLICIES & INFO</h1>
+                <p>Privacy Policy</p>
+                <p>Terms and Condition</p>
+                <p>Shipping Policy</p>
+                <p>Return and Refund</p>
+
+                <h1>SUPPORT</h1>
+                <p>For help, send an email to</p>
+                <p>care@megamart.in</p>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
+<script src="../js/checkout.js"></script>
+<script src="../js/cart_length.js"></script>
+<script src="../js/logout.js"></script>
